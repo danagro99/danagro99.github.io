@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: #0d1117;
     color: #e6edf3;
     line-height: 1.6;
@@ -31,7 +31,6 @@ a {
     max-width: 1100px;
     margin: auto;
     padding: 20px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,13 +55,10 @@ a {
 
 .hero {
     min-height: 85vh;
-
     max-width: 1100px;
     margin: auto;
-
     display: flex;
     align-items: center;
-
     padding: 80px 20px;
 }
 
@@ -94,7 +90,6 @@ a {
 
 
 /* BOTONES */
-
 .hero-buttons {
     margin-top: 30px;
     display: flex;
@@ -127,20 +122,16 @@ a {
     border-color: #58a6ff;
 }
 
-
 /* SECCIONES */
-
 .section {
     max-width: 1100px;
     margin: auto;
     padding: 100px 20px;
 }
-
 .section h2 {
     font-size: 36px;
     margin-bottom: 30px;
 }
-
 .section > p {
     color: #b1bac4;
     max-width: 750px;
@@ -148,13 +139,11 @@ a {
 
 
 /* TECNOLOGÍAS */
-
 .tecnologias {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
-
 .tecnologias span {
     background: #161b22;
     border: 1px solid #30363d;
@@ -165,7 +154,6 @@ a {
 
 
 /* PROYECTOS */
-
 .proyectos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -175,10 +163,8 @@ a {
 .proyecto {
     background: #161b22;
     border: 1px solid #30363d;
-
     padding: 30px;
     border-radius: 12px;
-
     transition: 0.3s;
 }
 
@@ -204,68 +190,42 @@ a {
 
 
 /* TAGS */
-
 .tags {
     display: flex;
     gap: 10px;
-
     margin-top: 20px;
 }
 
 .tags span {
     font-size: 13px;
-
     background: #0d1117;
-
     padding: 5px 10px;
-
     border-radius: 6px;
-
     color: #58a6ff;
 }
 
 
-/* CONTACTO */
-
-.contacto {
-    text-align: center;
-}
-
-.contacto p {
-    margin: 0 auto 30px;
-}
-
-
 /* FOOTER */
-
 footer {
     padding: 30px;
     text-align: center;
-
     border-top: 1px solid #21262d;
-
     color: #8b949e;
 }
 
 
 /* RESPONSIVE */
-
 @media (max-width: 700px) {
-
     .nav-links {
         display: none;
     }
-
     .hero h1 {
         font-size: 44px;
     }
-
     .hero h2 {
         font-size: 25px;
     }
-
     .proyectos {
         grid-template-columns: 1fr;
     }
-
 }
